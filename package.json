@@ -1,0 +1,25 @@
+{
+  "name": "redux-tdd-voting",
+  "version": "1.0.0",
+  "description": "A simple application for counting votes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visaudi/redux-tdd-voting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visaudi/redux-tdd-voting/issues"
+  },
+  "homepage": "https://github.com/visaudi/redux-tdd-voting#readme",
+  "devDependencies": {
+    "jest": "^22.4.4"
+  },
+  "dependencies": {
+    "redux": "^4.0.0"
+  }
+}
