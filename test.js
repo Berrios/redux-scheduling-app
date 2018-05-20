@@ -12,4 +12,8 @@ describe("Vote Counter", function() {
         store.dispatch(increaseVote());
         expect(store.getState().count).toBe(1);
     });
+    test("increases vote again", function() {
+        store.dispatch(increaseVote());
+        expect(store.getState().count).toBe(2);
+    });
 });
