@@ -5,7 +5,7 @@ module.exports = function voteCounter(state = {
 }, action) {
     if (action.type === INCREASE_VOTE) {
         return {
-            count: 1
+            count: state.count + 1 
         }
     }    
     return state;
