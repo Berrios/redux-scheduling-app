@@ -1,5 +1,5 @@
 module.exports = function voteCounter(state = {
-    count: undefined
+    count: 0
 }, action) {
     return state;
 }
